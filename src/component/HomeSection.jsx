@@ -3,7 +3,7 @@ import PFP from '../assets/sharonpfp.jpg'
 
 const HomeSection = () => {
     return (
-        <div className='grid grid-cols-5 pt-25 px-5 min-h-screen'>
+        <div className='grid grid-cols-5 pt-25 px-5 sm:px-20 min-h-screen'>
             <div className='sm:hidden col-span-5 flex justify-center items-center'>
                 <div className='h-50 w-58 relative'>
                     <div className='h-50 w-58 absolute bottom-0 right-0 bg-[#374151]'>

@@ -3,7 +3,7 @@ import JS from '../assets/icons8-javascript-480 (1).png'
 
 const SkillsSection = () => {
     return (
-        <div className='min-h-screen'>
+        <div id='skills' className='min-h-screen'>
             <div className='text-center pb-10 sm:pb-0 pt-20'>
                 <p className='rounded-3xl inline bg-[#374151] py-1 px-3'>Skills</p>
             </div>

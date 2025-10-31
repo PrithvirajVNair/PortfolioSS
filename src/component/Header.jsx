@@ -20,7 +20,7 @@ const Header = () => {
         <div className='fixed w-full' style={{ zIndex: '999' }}>
             <div className='flex justify-between items-center text-white px-5 sm:px-20 backdrop-blur-xl'>
                 <div className='text-xl p-3'>
-                    LOGO
+                    <a href='#'>LOGO</a>
                 </div>
                 <div className='hidden sm:flex'>
                     <ul className='flex'>
@@ -31,7 +31,7 @@ const Header = () => {
                         }
                     </ul>
                     <div className='ml-1 flex items-center'>
-                        <a className='text-lg border p-1 rounded-2xl text-black bg-white ml-5' href="">Download CV</a>
+                        <a className='text-lg border p-1 rounded-2xl text-black bg-white ml-5 hover:bg-[#bcbcbc]' href="">Download CV</a>
                     </div>
                 </div>
                 <div className='sm:hidden px-5'>
@@ -54,7 +54,7 @@ const Header = () => {
                         <div>
                             <div className='border border-[#374151]'></div>
                             <div className='my-2'>
-                                <a className='text-sm border p-1 rounded-2xl text-black bg-white' href="">Download CV</a>
+                                <a className='text-sm border p-1 rounded-2xl text-black bg-white hover:bg-[#bcbcbc]' href="">Download CV</a>
                             </div>
                         </div>}
                     </ul>

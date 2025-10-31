@@ -2,7 +2,7 @@ import React from 'react'
 
 const ExperienceSection = () => {
     return (
-        <div className='bg-[#111827] min-h-screen'>
+        <div id='project' className='bg-[#111827] min-h-screen'>
             <div className='text-center pt-20'>
                 <p className='rounded-3xl inline bg-[#374151] py-1 px-3'>Experience</p>
             </div>

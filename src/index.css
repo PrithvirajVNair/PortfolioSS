@@ -4,3 +4,19 @@ body{
   background-color: #030712;
   color: white;
 }
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background-color: #000c2c;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #253464;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: #20476b;
+}

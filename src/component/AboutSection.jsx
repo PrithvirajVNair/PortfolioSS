@@ -23,7 +23,7 @@ const AboutSection = () => {
             <div className='h-90 w-80 absolute bottom-0 left-0 bg-[#374151]'>
 
             </div>
-            <div className='border-10 border-[#111827] h-90 w-80 absolute top-0 right-0'>
+            <div className='border-10 border-[#111827] h-90 w-80 absolute top-0 right-0 about-pic'>
 
             </div>
           </div>
